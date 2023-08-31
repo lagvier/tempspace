@@ -1,5 +1,5 @@
 
-pkg_needed = c('readxl', 'dplyr')
+pkg_needed = c('readxl', 'dplyr', "rJava")
 
 install.packages(pkg_needed, dependencies = TRUE)
 
