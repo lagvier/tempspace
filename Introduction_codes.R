@@ -1,7 +1,12 @@
+# List of required packages: Only once!
+pkg_needed = c("rJava", 'readxl', 'dplyr')
 
-pkg_needed = c('readxl', 'dplyr', "rJava")
-
+# install the list of packages listed
 install.packages(pkg_needed, dependencies = TRUE)
+
+#-------------------------------------------
+
+# load the packages: Everytime you open RStudio and interested to run the script
 
 
 library('readxl') # To read excel files (xls, xlsx formats)
